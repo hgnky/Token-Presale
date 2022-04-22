@@ -1,0 +1,88 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+.App-logo {
+  min-height: 100vh;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.swap-box {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  display: block;
+  overflow: hidden;
+  background-color: white;
+}
+
+.bordered {
+  border: 1px solid rgb(206, 208, 217);
+  border-radius: 20px;
+  background-color: rgb(247, 248, 250);
+}
+
+.bordered input {
+  background-color: rgb(247, 248, 250);
+}
+
+.input-text:active {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.input-text:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.arrow>div {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  z-index: 2;
+}
+
+body {
+  background-color: #e5ccff;
+}
